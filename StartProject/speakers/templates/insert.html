@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}" />
+  </head>
+  <body>
+    <form>
+      <label for="firstname">First name: </label>
+      <input type="text" name="firstname" required />
+      <br />
+      <label for="lastname">Last name: </label>
+      <input type="text" name="lastname" required />
+      <br />
+      <label for="email">email: </label>
+      <input type="email" name="email" required />
+      <br />
+      <label for="password">password: </label>
+      <input type="password" name="password" required />
+      <br />
+      <input type="submit" value="Create" />
+      <input type="submit" value="Read" />
+      <input type="submit" value="update" />
+      <input type="submit" value="Delete" />
+    </form>
+  </body>
+</html>
